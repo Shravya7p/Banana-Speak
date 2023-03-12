@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Montserrat:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #fde047;
+    --secondary-color:#fef08a;
+    --off-white: #f3f4f6;
+    --width-break:600px;
+}
+
+#btn-translate{
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-family: 'Kalam',cursive;
+    font-weight: bold;
+    font-size: medium;
+}
+.navbar{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    font-family: 'kalam', cursive;
+    font-size: 1rem;
+}
+body{
+    background-image: url("images/minions2.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+    font-family: 'kalam', cursive;
+    margin: 0px;
+}
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+#txtarea{
+    text-align: center;
+}
+.outputTxt{
+    padding-left: 1rem;
+    color: var(--off-white);
+}
+.buttonClick{
+    text-align: left;
+    padding-left: 1rem;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    bottom: 0;
+    text-align: center;
+    font-family: 'kalam', cursive;
+}
+footer p{
+    margin: auto;
+    max-width: var(--width-break);
+}
+footer :first-child{
+    font-size: x-large;
+}
